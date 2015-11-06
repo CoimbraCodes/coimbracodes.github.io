@@ -1,0 +1,9 @@
+# Site settings
+title: 'Coimbra.codes' # Your Title
+tagline: 'Where programmers in Coimbra gather to talk code.' # A brief tagline for your site
+sidebar_image: /images/coimbracodestest.jpg
+
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+baseurl: / # the subpath of your site, e.g. /blog/
