@@ -1,7 +1,6 @@
 box: maxmouchet/ruby-git 
 build:
   steps:
-    - gem install bundler
     - bundle-install
     - script:
         name: generate site
