@@ -1,0 +1,13 @@
+box: maxmouchet/ruby-git 
+build:
+  steps:
+    - bundle-install
+    - script:
+        name: generate site
+        code: bundle exec jekyll build --trace --destination $WERCKER_OUTPUT_DIR
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: coimbra.codes
+        basedir: public
