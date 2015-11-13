@@ -6,4 +6,4 @@ sidebar_image: /images/coimbracodestest.jpg
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-baseurl: /coimbracodes.github.io # the subpath of your site, e.g. /blog/
+baseurl: / # the subpath of your site, e.g. /blog/
