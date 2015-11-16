@@ -2,7 +2,7 @@
 layout: post
 title: "Announcing our website!"
 date: 2015-11-13 12:00:00
-categories:
+categories: 
 featured_image: /images/coimbracodestest.jpg
 ---
 

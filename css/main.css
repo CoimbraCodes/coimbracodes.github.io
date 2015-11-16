@@ -226,6 +226,7 @@ header ul.meta li {
 header ul.meta li span {
   margin-right: 10px;
   font-style: italic;
+  font-size: 1.5em;
   color: rgba(255, 255, 255, .5);
 }
 
